@@ -6,7 +6,7 @@ var server = http.createServer((req, res) => {
   res.end("Hello, World!");
 })
 
-var port = procces.env.PORT || 1337;
+var port = process.env.PORT || 1337;
 server.listen(port);
 
 console.log("Server is running");
